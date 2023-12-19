@@ -1,0 +1,140 @@
+body {
+  text-align: center;
+  margin: 0;
+  background: #6b2c39;
+  font-family: "Cormorant", serif;
+}
+
+.hero {
+  background-image: url("images/nsp_sky.avif");
+  background-size: cover;
+  padding: 0px 0 420px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(#1c89f0, #d6c5c5);
+  /* background: #f77f00; */
+  font-size: 36px;
+  font-weight: 800;
+  word-wrap: break-word;
+  padding: 8px 16px;
+  border-radius: 50px;
+  text-shadow: 1px -1.5px 3.5px black;
+  margin-bottom: 21px;
+}
+
+#title-tag {
+  color: black;
+  background: linear-gradient(#ffffff, rgb(4, 160, 180));
+  font-size: 20px;
+  font-weight: bolder;
+  word-wrap: break-word;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-shadow: 2px 1px 5px white;
+  width: 355px;
+  margin-top: 0;
+}
+
+.activities {
+  padding: 40px 40px 80px;
+  height: 480px;
+  background-color: #eee196;
+}
+
+#activ-title {
+  margin: 0 0 55px;
+  font-size: 30px;
+}
+
+.activ-thumb {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+
+.activ-thumb:hover {
+  box-shadow: 22px 22px 44px #969175, -22px -22px 44px #fffff9;
+  width: 140px;
+  height: 140px;
+  transition: box-shadow 0.2s ease-in-out, width 0.2s ease-in-out,
+    height 0.2s ease-in-out;
+}
+
+.activ-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.activ-col {
+  width: 150px;
+  height: 100px;
+  font-size: large;
+  font-weight: 500;
+  text-shadow: 0px 0px 10px whitesmoke;
+}
+
+.guide {
+  margin: 50px auto;
+  height: 100%;
+}
+
+#guide-photo {
+  height: 250px;
+  width: 180;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 280px;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 70px auto;
+  background: linear-gradient(#f78400, #b1718cdc);
+  color: #eae2b7;
+  padding: 15px 20px;
+  border-radius: 18px;
+  text-shadow: 1px 1px 10px rgb(39, 38, 38);
+  box-shadow: 39px 39px 63px #441c24, -39px -39px 63px #923c4e;
+  border-bottom: 2px solid black;
+}
+
+.my-self {
+    font-size: 22px;
+    font-weight: 700;
+  color: #ffffff;
+  font-family: NotoSerif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: rgb(0, 153, 255);
+}
+
+.green {
+  color: rgb(0, 117, 20);
+}
+
